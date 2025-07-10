@@ -42,8 +42,13 @@ body {
   border-radius: 6px;
 }
 
+.nav a:hover{
+    text-decoration: underline;
+}
+
 a.header__nav--active {
     background-color: #cbe300;
     color: #0c1014;
-    
+    pointer-events: none;
 }
+
